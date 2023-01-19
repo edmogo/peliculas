@@ -7,8 +7,8 @@ define("APPLICATION_PATH", dirname($_SERVER['PHP_SELF'])."/");
 //Configuración de la conexion a la base de datos
 define("BD_SERVIDOR", "localhost:3306");
 define("BD_NOMBRE", "peliculas");
-define ("BD_USUARIO", "peliculas");
-define ("BD_PASSWORD", "peliculas");
+define ("BD_USUARIO", "root");
+define ("BD_PASSWORD", "root");
 
 //Configuración de logitudes minimas del login y el password de los usuario
 //normales
