@@ -5,7 +5,7 @@ define("CLASS_PATH", dirname($_SERVER['PHP_SELF'])."/");
 define("APPLICATION_PATH", dirname($_SERVER['PHP_SELF'])."/");
 
 //Configuración de la conexion a la base de datos
-define("BD_SERVIDOR", "10.217.5.133:3306");
+define("BD_SERVIDOR", "localhost:3306");
 define("BD_NOMBRE", "peliculas");
 define ("BD_USUARIO", "peliculas");
 define ("BD_PASSWORD", "peliculas");
